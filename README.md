@@ -7,7 +7,7 @@
 Soy **QA Tester** en formación con experiencia práctica en pruebas funcionales, **validación de APIs** y evaluación de interfaces web. Me enfoco en asegurar productos confiables mediante un análisis detallado, el uso de herramientas modernas como **Postman y JIRA**, y la aplicación de buenas prácticas usando **metodologías ágiles**.
 
 ## 🚀 Sobre mí
-- 🎓 Formación empirica en **Logitica**.
+- 🎓 Formación empirica en **Logistica**.
 - 📚 Actualmente estoy cursando el **bootcamp de Quality Assurance Engineering** de Tripleten LaTam.
 - 💡 Estoy emprendiendo un nuevo camino, dejando atrás la logística para adentrarme en el mundo TI, impulsado por mi pasión por la tecnología.
 - 🧩 Fortaleciendo mis habilidades en **lenguajes Java y Python**,**mobile testing**, **pruebas API** y **pruebas en bases de datos**.
@@ -15,21 +15,55 @@ Soy **QA Tester** en formación con experiencia práctica en pruebas funcionales
 
 ## 🛠️ Habilidades y herramientas
 
-- **Pruebas de Software:** Pruebas manuales, UI Testing, pruebas de regresión, debugging.
-- **Automatización:** Python, Pytest.
-- **API Testing:** Postman, JSON.
-- **Herramientas:** JIRA, DevTools, GitHub, Git, Bash, SQL.
-- **Metodologías:** Agile, análisis y documentación de pruebas.
+- **Pruebas de Software:** Pruebas manuales, clases de equivalencia, pruebas de regresión, Valores limite y diseño de pruebas.
+- **API Testing:** Postman, Scripts, JIRA.
+- **UI Testing:** Pruebas multiplataforma, DevTools, Diseño web responsive .  
+- **Metodologías:** Discord y documentación de pruebas.
 
 ## 🚀 Proyectos Destacados
 
 ### 🔹 Urban Routes *(Aplicación web para reserva de taxis)*
-📌 **Descripción:** Plataforma que permite a los usuarios reservar taxis en tiempo real, gestionar métodos de pago y revisar el historial de viajes.  
-🛠 **Tecnologías utilizadas:** Pruebas manuales, Chrome DevTools, JIRA, SQL.  
-🔍 **Contribución:**  
-- Ejecuté **26 casos de prueba** en Chrome y Firefox, validando estabilidad del sistema.  
-- Reporté **38 errores críticos**, optimizando la experiencia del usuario.  
-- Verifiqué la funcionalidad de **métodos de pago** y lógica de reservas.  
+📌 **Contexto:** Este proyecto consiste en evaluar la funcionalidad de “Compartir automóvil” dentro del aplicativo de taxis Urban Routes. El objetivo es asegurar que el usuario pueda compartir un viaje correctamente y que la interfaz responda de manera adecuada en distintos navegadores y resoluciones.
+  
+🛠 **Analisis:**
+✔️ 1. Diseño del formulario de reserva (UI) – 2 entornos
+
+Se ejecutaron 40 pruebas por entorno (Chrome 800×600 y Firefox 1920×1080), sumando 80 pruebas:
+23 APROBADAS, 13 NO APROBADAS y 4 OMITIDAS.
+Los fallos se repitieron en ambos navegadores, indicando problemas generales del diseño y no del entorno.
+
+✔️ 2. Ventanas “Agregar Tarjeta” y “Método de Pago” – Funcionalidad
+
+En un solo entorno se corrieron 41 pruebas:
+19 APROBADAS y 21 NO APROBADAS.
+El alto número de fallos evidencia errores importantes en validaciones y comportamiento del flujo de pago.
+
+✔️ 3. Funcionalidad del botón “Reservar”
+
+Se evaluaron 5 pruebas:
+1 APROBADA y 4 NO APROBADAS.
+La lógica del botón presenta fallos en habilitación y funcionamiento bajo diferentes condiciones.
+
+✔️ 4. Funciones de Reserva – Lógica
+
+Se ejecutaron 5 pruebas:
+1 APROBADA, 3 NO APROBADAS y 1 OMITIDA.
+Se identificaron inconsistencias en pasos clave del flujo de reserva, afectando la acción principal del sistema. 
+
+🔍 **Conclusiones:**  
+Las pruebas evidencian que Urban Routes no está lista para un lanzamiento en su estado actual. Se identificaron fallos críticos que afectan directamente la experiencia del usuario y la capacidad de completar una reserva.
+
+Entre los problemas más relevantes destacan:
+
+❌ Fallos en el flujo principal de reserva, como el mal funcionamiento del botón Cancelar en la ventana de “Automóvil Compartido”, lo que bloquea al usuario en un punto clave del proceso.
+
+❌ Validaciones deficientes en métodos de pago, permitiendo ingresar tarjetas inválidas que comprometen la integridad del cobro.
+
+❌ Errores de interfaz, especialmente en la selección del automóvil, generando confusión y riesgo de reservas incorrectas.
+
+Además, el sistema solo permite pagar con tarjeta en el servicio “Automóvil Compartido”, lo que limita a usuarios que utilizan otros medios de pago. Se recomienda habilitar opciones como efectivo o billeteras digitales, ampliamente utilizadas en países como Perú, para evitar que usuarios potenciales abandonen la app o migren a la competencia.
+
+En conjunto, estos problemas tienen un impacto directo en la usabilidad, accesibilidad y confiabilidad del producto. No se recomienda el lanzamiento hasta corregir los errores identificados y ampliar las opciones de pago para mejorar la experiencia del usuario y fortalecer la competitividad de la aplicación  
 
 🔗 **[Repositorio](https://docs.google.com/spreadsheets/d/1Kq9tyAy5LoRQFNF_J6WgPBlHN-nXnjq5SFrlTk4nzYU/edit?usp=sharing)**
 
