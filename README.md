@@ -1,5 +1,5 @@
 
-![tester(1)](https://github.com/user-attachments/assets/368d3250-3a36-4de1-8143-04dffa1e5779)
+![Portada Samir](https://github.com/user-attachments/assets/TU-NUEVO-LINK-AQUI)
 
 
 #  ¡Hola, soy Samir! 👋
