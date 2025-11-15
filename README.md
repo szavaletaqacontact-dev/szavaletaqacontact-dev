@@ -66,7 +66,7 @@ Además, el sistema solo permite pagar con tarjeta en el servicio “Automóvil 
 
 En conjunto, estos problemas tienen un impacto directo en la usabilidad, accesibilidad y confiabilidad del producto. No se recomienda el lanzamiento hasta corregir los errores identificados y ampliar las opciones de pago para mejorar la experiencia del usuario y fortalecer la competitividad de la aplicación  
 
-🔗 **[Repositorio](https://docs.google.com/spreadsheets/d/1Kq9tyAy5LoRQFNF_J6WgPBlHN-nXnjq5SFrlTk4nzYU/edit?usp=sharing)**
+🔗 **[Repositorio](https://docs.google.com/spreadsheets/d/1RfMwd0oTuZMptLQmKaavlMsr3Y_mB5hV/edit?usp=sharing&ouid=117698356908026899234&rtpof=true&sd=true)**
 
 ---
 
