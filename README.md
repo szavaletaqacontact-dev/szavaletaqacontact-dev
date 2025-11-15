@@ -168,7 +168,7 @@ La solución requiere una revisión completa del backend y sus validaciones, as�
 
   <!-- Badges resumen UR -->
   <p>
-    <img alt="Total UR Tests" src="https://img.shields.io/badge/Total_UrbanRoutes-131-blue?style=flat-square" />
+    <img alt="Total UR Tests" src="https://img.shields.io/badge/Total_UrbanRoutes-91-blue?style=flat-square" />
     <img alt="UR Approved" src="https://img.shields.io/badge/Aprobadas-44-brightgreen?style=flat-square" />
     <img alt="UR Failed" src="https://img.shields.io/badge/No_Aprobadas-41-red?style=flat-square" />
     <img alt="UR Omitted" src="https://img.shields.io/badge/Omitidas-5-lightgrey?style=flat-square" />
