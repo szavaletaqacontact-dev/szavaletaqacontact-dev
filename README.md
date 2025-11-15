@@ -71,7 +71,7 @@ En conjunto, estos problemas tienen un impacto directo en la usabilidad, accesib
 
 ---
 
-### 🔹 Urban Groutes *(Plataforma web y API para alquiler de scooters)*
+### 🔹 Urban Grocers *(Plataforma web y API entrega de comestibles)*
 📌 **Descripción:** Urban Grocers es una plataforma de entrega de comestibles que acaba de enviar nuevas actualizaciones sobre cómo maneja los kits y los servicios de entrega. Se requiere probar las funciones especificas de como **agregar productos a un kit** y la **disponibilidad del sercicio de entrega Order and Go**. Analizar los requisitos del backend y el apidocs para asegurarte de que la API los admita correctamente.
 
 
