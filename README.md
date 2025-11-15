@@ -26,6 +26,7 @@ Soy **QA Tester** en formación con experiencia práctica en pruebas funcionales
 📌 **Contexto:** Este proyecto consiste en evaluar la funcionalidad de “Compartir automóvil” dentro del aplicativo de taxis Urban Routes. El objetivo es asegurar que el usuario pueda compartir un viaje correctamente y que la interfaz responda de manera adecuada en distintos navegadores y resoluciones.
   
 🛠 **Analisis:**
+
 ✔️ 1. Diseño del formulario de reserva (UI) – 2 entornos
 
 Se ejecutaron 40 pruebas por entorno (Chrome 800×600 y Firefox 1920×1080), sumando 80 pruebas:
