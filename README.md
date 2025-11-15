@@ -1,5 +1,8 @@
 
-![Portada Samir](https://github.com/user-attachments/assets/TU-NUEVO-LINK-AQUI)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/365f38e1-f243-4216-940a-1e977ce332e2" alt="Banner QA" width="100%">
+</p>
+
 
 
 #  ¡Hola, soy Samir! 👋
